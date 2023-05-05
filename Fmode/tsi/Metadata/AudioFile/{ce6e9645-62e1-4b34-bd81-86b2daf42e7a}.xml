@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{ce6e9645-62e1-4b34-bd81-86b2daf42e7a}">
+		<property name="assetPath">
+			<value>footSteps/06.2 tierra-pasto/Corsica_S-Walking_on_snow_covered_gravel_and_ice_14.flac</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.57299319727891151</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bb6ac4db-665b-4f9a-a8fb-6fa07f8dbb3d}</destination>
+		</relationship>
+	</object>
+</objects>

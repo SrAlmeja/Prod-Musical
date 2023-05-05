@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{72adb7cd-1499-46f2-89d3-b3b8c23434d2}">
+		<property name="assetPath">
+			<value>Ambients/Mosnter/horrorbreathing/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bb6ac4db-665b-4f9a-a8fb-6fa07f8dbb3d}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="EncodableAsset" id="{1da56f27-308a-4986-9d51-ff632658c8fb}">
+		<property name="assetPath">
+			<value>footSteps/05 Nieve/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bb6ac4db-665b-4f9a-a8fb-6fa07f8dbb3d}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c458269c-0d85-4999-a762-333b58f61c3b}">
+		<property name="assetPath">
+			<value>Ambients/Mosnter/Scary Sound.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>21.452857142857145</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bb6ac4db-665b-4f9a-a8fb-6fa07f8dbb3d}</destination>
+		</relationship>
+	</object>
+</objects>

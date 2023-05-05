@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{c4f22b50-a5bb-4f35-bb5d-63b3de88aadf}">
+		<property name="assetPath">
+			<value>footSteps/04 Agua/FIW7.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.6911458333333333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{bb6ac4db-665b-4f9a-a8fb-6fa07f8dbb3d}</destination>
+		</relationship>
+	</object>
+</objects>

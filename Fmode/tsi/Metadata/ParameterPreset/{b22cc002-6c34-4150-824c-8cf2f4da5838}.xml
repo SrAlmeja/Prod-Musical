@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{b22cc002-6c34-4150-824c-8cf2f4da5838}">
+		<property name="name">
+			<value>StepsType</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e3adec25-db22-49c0-bdaf-023a0aaa6405}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ac84bf5b-d325-4c02-8707-2f1d8f795026}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ac84bf5b-d325-4c02-8707-2f1d8f795026}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>4</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Concreto</value>
+			<value>TierraPasto</value>
+			<value>Madera</value>
+			<value>Agua</value>
+		</property>
+		<property name="initialValue">
+			<value>3</value>
+		</property>
+	</object>
+</objects>
