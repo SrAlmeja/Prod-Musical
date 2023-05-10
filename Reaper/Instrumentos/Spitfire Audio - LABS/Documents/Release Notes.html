@@ -1,0 +1,226 @@
+<h1>LABS</h1>
+<h2>[1.5.0]</h2>
+<h3>Added</h3>
+<ul>
+<li>New Preset Icon</li>
+<li>M1 compatibility</li>
+</ul>
+<h2>[1.4.0]</h2>
+<h3>Added</h3>
+<ul>
+<li>Icons for new paramerter</li>
+<li>Sync to tempo for new libraries</li>
+</ul>
+<h2>[1.3.11]</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Issues with loading certain projects on Windows </li>
+</ul>
+<h2>[1.3.7]</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Fixed a bug where certain preset previews weren't working</li>
+</ul>
+<h2>[1.3.4]</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Stuff</li>
+</ul>
+<h2>[1.3.3]</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Stuff</li>
+</ul>
+<h2>[1.3.2]</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Stuff</li>
+</ul>
+<h2>[1.3.1]</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Fixed a bug where the 32-bit version of the plugin would crash on initial load</li>
+</ul>
+<h2>[1.2.12]</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Fixed digital aliasing when the host sample rate is not 48kHz - introduced
+<a href="#1111">1.1.11</a></li>
+</ul>
+<h2>[1.2.11]</h2>
+<h3>Added</h3>
+<ul>
+<li>Internal improvements to the handling of audio files and streams</li>
+<li>Improved logging messages when a preset is loaded to help with diagnosis</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>Made the AAX plugin identifier future proof after breaking changes to JUCE</li>
+<li>Fixed intermittent dropping out of notes </li>
+</ul>
+<h2>[1.2.10]</h2>
+<h3>Added</h3>
+<ul>
+<li>Add optimisation to modulation improving CPU performance especially in complex
+patches
+### Fixes</li>
+<li>Fixed early termination of long ADSR Release times relating to a number of
+LABS products with long techniques and ADSR controls</li>
+<li>Fixed passing at strictness level 10 for pluginval avoiding potential
+memory allocations on the audio thread (although in practice this never
+happened in any released production content)</li>
+</ul>
+<h2>[1.2.9]</h2>
+<h3>Added</h3>
+<ul>
+<li>Allow sorting of presets to be customised</li>
+</ul>
+<h2>[1.2.8]</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Allows the gain of an impulse response to be set</li>
+<li>Improve detection of a Windows 10 system in all known hosts again,
+(fixing more Windows 10-related authorisation issues)</li>
+</ul>
+<h3>Changes</h3>
+<ul>
+<li>All combo box controls now scroll the currently selected item by default</li>
+</ul>
+<h3>Notes</h3>
+<ul>
+<li>Consolidates more code into the common codebase</li>
+</ul>
+<h2>[1.2.7]</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Fixes correct loading of round robin configurations from a saved session.</li>
+</ul>
+<h2>[1.2.6]</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Fixes another crash caused by dividing by zero</li>
+</ul>
+<h2>[1.2.5]</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Fixes a crash caused by dividing by zero</li>
+</ul>
+<h2>[1.2.4]</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Improve detection of a Windows 10 system in all known hosts
+(fixing a number of Windows 10-related authorisation issues)</li>
+<li>Inhibit writing host automation when a control is mapped to
+a MIDI CC (this prevents MIDI and host automation from
+fighting over values in certain automation modes)</li>
+<li>Fix a bug preventing the Audio Unit plugin from loading correctly in Vienna
+Ensemble Pro - introduced in <a href="#121">1.2.1</a> with the update to JUCE 5</li>
+</ul>
+<h2>[1.2.3]</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Fix glitches in loop fade outs</li>
+</ul>
+<h2>[1.2.2]</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Add a means of specifying a certain audio sample zone as the preview audio</li>
+<li>Adjusted the synth icon</li>
+</ul>
+<h2>[1.2.1]</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Fixed corrupted playback on 32-bit systems (especially Windows) </li>
+<li>Fine-tuned error reporting in the case of missing or moved samples</li>
+<li>Fixes cycling around the first and last preset displayed using the previous
+and next preset button</li>
+<li>Fixes the failed playback of samples on the highest and lowest notes when
+using the neighbour zone round robin feature (for example, LABS Soft Piano)</li>
+<li>The reset button correctly resets and reloads the samples directories and
+unloads and reloads the currently selected preset</li>
+</ul>
+<h2>[1.2.0]</h2>
+<h3>Added</h3>
+<ul>
+<li>The error popup is now customised to one of five different error scenarios
+and the URL to which the user is take is different depending on which error
+scenario was encountered</li>
+<li>Add new icons for ADSR controls</li>
+<li>Add new product icons</li>
+<li>Allow the dial value popup to show time values in seconds or milliseconds
+(for the attack, decay, and release of the ADSR controls)</li>
+<li>Adjusted the layout of the Preset Browser, in particular making the filter
+tag buttons wider to accommodate longer names</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>Fixed Windows recognising pointing devices configured for left hands (where
+the primary and secondary buttons are swapped in the Windows Control Panel)</li>
+</ul>
+<h3>Notes</h3>
+<ul>
+<li>This release was updated to use JUCE 5.3.2</li>
+</ul>
+<h2>[1.1.2]</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Fix the default parameter for LABS Strings to be Reverb rather than Release
+(introduced in v1.1.0)</li>
+<li>Fix showing an error when there are missing patch and/or preset configuration
+files when none are required (which is the case for LABS Soft Piano and
+Strings version v1.0.2)</li>
+</ul>
+<h2>[1.1.1]</h2>
+<h3>Added</h3>
+<ul>
+<li>Made this version of the plugin compatible with LABS Soft Piano v1.0.2 and
+LABS Strings v1.0.2 rather than demanding that the user updates to the latest
+versions (v1.0.3)</li>
+</ul>
+<h2>[1.1.0]</h2>
+<h3>Added</h3>
+<ul>
+<li>The is an internal refactor of the code to support future LABS products more
+flexibly</li>
+</ul>
+<h3>Notes</h3>
+<ul>
+<li>Requires additional configuration files in each product to specific icons,
+text and other information</li>
+</ul>
+<h2>[1.0.4]</h2>
+<h3>Fixes</h3>
+<ul>
+<li>Fixes erroneous note steal behaviour when looping playback is enabled and the
+looping section is empty (especially on ProTools systems)</li>
+<li>Fixes hanging notes if a sequence is stopped during playback of a sequence
+than contains sustain pedal data and the pedal was currently down (especially
+on ProTools systems)</li>
+<li>Fixes the correct display of a custom font within the Preset Selector</li>
+<li>Fixes an occasional failure to load the reverb effect causing the plugin to
+output silence</li>
+<li>Reduces memory usage on 32-bit system</li>
+<li>Fixes a potential crash when removing an instance of the plugin while it, or
+one or more instances, are still playing</li>
+<li>Fixes the round robin behaviour of LABS Soft Piano when recalling from a
+saved session</li>
+<li>(macOS) Fixes AU validation in 32-bit mode</li>
+</ul>
+<h3>Notes</h3>
+<ul>
+<li>ProTools may report &gt;=100% system memory usage although this is not actually
+physical memory usage (this cat be determined by using other system tools).
+This is due to the way we load audio content. It is safe to ignore the warning
+and you should use other tools to monitor your computer's memory usage if you
+are concerned.</li>
+</ul>
+<h2>[1.0.3]</h2>
+<h3>Added</h3>
+<ul>
+<li>Added an error popup when there were problems finding or loading content</li>
+</ul>
+<h3>Fixes</h3>
+<ul>
+<li>### Fixes authorisation from being reset on Windows 10 systems after operating
+system updates</li>
+</ul>
