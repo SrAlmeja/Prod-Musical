@@ -212,10 +212,10 @@ MonoBehaviour:
   Path: ../../Fmode/ProyectKatCarFmode/PKC/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638193632440262932
+  lastModified: 638193683323060653
   FileSizes:
   - Name: Desktop
-    Value: 15592
+    Value: 15738
   Exists: 1
 --- !u!114 &-5908728905933305628
 MonoBehaviour:
@@ -509,10 +509,10 @@ MonoBehaviour:
   Path: ../../Fmode/ProyectKatCarFmode/PKC/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638193632440312798
+  lastModified: 638193683323110526
   FileSizes:
   - Name: Desktop
-    Value: 4014
+    Value: 4102
   Exists: 1
 --- !u!114 &-1485478517836160677
 MonoBehaviour:
@@ -560,8 +560,8 @@ MonoBehaviour:
     Data3: 1244236687
     Data4: 595743019
   Banks:
-  - {fileID: -6916445024503771056}
   - {fileID: -8313993866970356264}
+  - {fileID: -6916445024503771056}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -584,10 +584,10 @@ MonoBehaviour:
   Path: ../../Fmode/ProyectKatCarFmode/PKC/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638193632531840769
+  lastModified: 638193683346636336
   FileSizes:
   - Name: Desktop
-    Value: 10454368
+    Value: 11280864
   Exists: 1
 --- !u!114 &-586683188282010500
 MonoBehaviour:
@@ -715,6 +715,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 54339
+--- !u!114 &-87790381975805123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/Kart Music
+  m_EditorClassIdentifier: 
+  Path: event:/Music/Kart Music
+  Guid:
+    Data1: -1110106112
+    Data2: 1341981225
+    Data3: 754311584
+    Data4: -758082043
+  Banks:
+  - {fileID: -667428155954937797}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 59115
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -768,12 +795,13 @@ MonoBehaviour:
   - {fileID: 7240706669797527734}
   - {fileID: 7453450146987227136}
   - {fileID: -5379917448324461785}
+  - {fileID: -87790381975805123}
   EditorParameters: []
   MasterBanks:
   - {fileID: -6916445024503771056}
   StringsBanks:
   - {fileID: -1533084049453426237}
-  cacheTime: 638193632679964945
+  cacheTime: 638193683346636336
   cacheVersion: 131603
 --- !u!114 &113486222540786395
 MonoBehaviour:
