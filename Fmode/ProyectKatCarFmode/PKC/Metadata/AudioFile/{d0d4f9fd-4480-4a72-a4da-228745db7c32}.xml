@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{c8975eef-bef2-4f13-8c54-09c9002610c5}">
+	<object class="AudioFile" id="{d0d4f9fd-4480-4a72-a4da-228745db7c32}">
 		<property name="assetPath">
-			<value>Piano Motor.wav</value>
+			<value>Vehicles/My MotorSounds/Piano Motor.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

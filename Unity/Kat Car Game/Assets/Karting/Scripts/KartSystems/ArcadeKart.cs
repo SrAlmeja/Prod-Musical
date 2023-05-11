@@ -14,6 +14,7 @@ namespace KartGame.KartSystems
             public string PowerUpID;
             public float ElapsedTime;
             public float MaxTime;
+
         }
 
         [System.Serializable]
