@@ -39,7 +39,7 @@ MonoBehaviour:
   Path: ../../Fmode/ProyectKatCarFmode/PKC/Build/Desktop/Dialogue_JP.bank
   Name: Dialogue_JP
   StudioPath: bank:/Dialogue_JP
-  lastModified: 638193632439906898
+  lastModified: 638194144611323953
   FileSizes:
   - Name: Desktop
     Value: 66560
@@ -87,7 +87,7 @@ MonoBehaviour:
   Path: ../../Fmode/ProyectKatCarFmode/PKC/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 638193632674274608
+  lastModified: 638194144640459794
   FileSizes:
   - Name: Desktop
     Value: 21580064
@@ -212,7 +212,7 @@ MonoBehaviour:
   Path: ../../Fmode/ProyectKatCarFmode/PKC/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638193683323060653
+  lastModified: 638194144611313982
   FileSizes:
   - Name: Desktop
     Value: 15738
@@ -310,7 +310,7 @@ MonoBehaviour:
   Path: ../../Fmode/ProyectKatCarFmode/PKC/Build/Desktop/VO.bank
   Name: VO
   StudioPath: bank:/VO
-  lastModified: 638193632679964945
+  lastModified: 638194144611323953
   FileSizes:
   - Name: Desktop
     Value: 38624
@@ -509,7 +509,7 @@ MonoBehaviour:
   Path: ../../Fmode/ProyectKatCarFmode/PKC/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638193683323110526
+  lastModified: 638194144611343892
   FileSizes:
   - Name: Desktop
     Value: 4102
@@ -560,8 +560,8 @@ MonoBehaviour:
     Data3: 1244236687
     Data4: 595743019
   Banks:
-  - {fileID: -8313993866970356264}
   - {fileID: -6916445024503771056}
+  - {fileID: -8313993866970356264}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -584,7 +584,7 @@ MonoBehaviour:
   Path: ../../Fmode/ProyectKatCarFmode/PKC/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 638193683346636336
+  lastModified: 638194144611908047
   FileSizes:
   - Name: Desktop
     Value: 11280864
@@ -628,7 +628,7 @@ MonoBehaviour:
   Path: ../../Fmode/ProyectKatCarFmode/PKC/Build/Desktop/Dialogue_CN.bank
   Name: Dialogue_CN
   StudioPath: bank:/Dialogue_CN
-  lastModified: 638193632436219867
+  lastModified: 638194144610041422
   FileSizes:
   - Name: Desktop
     Value: 52416
@@ -801,7 +801,7 @@ MonoBehaviour:
   - {fileID: -6916445024503771056}
   StringsBanks:
   - {fileID: -1533084049453426237}
-  cacheTime: 638193683346636336
+  cacheTime: 638194144640459794
   cacheVersion: 131603
 --- !u!114 &113486222540786395
 MonoBehaviour:
@@ -1108,7 +1108,7 @@ MonoBehaviour:
   Path: ../../Fmode/ProyectKatCarFmode/PKC/Build/Desktop/Dialogue_EN.bank
   Name: Dialogue_EN
   StudioPath: bank:/Dialogue_EN
-  lastModified: 638193632437995826
+  lastModified: 638194144610047027
   FileSizes:
   - Name: Desktop
     Value: 61120
@@ -1657,7 +1657,7 @@ MonoBehaviour:
   Path: ../../Fmode/ProyectKatCarFmode/PKC/Build/Desktop/Vehicles.bank
   Name: Vehicles
   StudioPath: bank:/Vehicles
-  lastModified: 638193632678689580
+  lastModified: 638194144611333930
   FileSizes:
   - Name: Desktop
     Value: 222464
